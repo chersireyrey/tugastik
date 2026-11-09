@@ -1,0 +1,89 @@
+table, th, td{
+    border:1px solid black;
+    padding: 5px;
+}
+
+td.hover:hover{
+    background-color: #00c3ff;
+    color: white;
+} 
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+th{
+    height: 50px;
+}
+
+th.warna{
+    background-color: #f0629d;
+    color: white;
+}
+
+td{
+    text-align: center;
+}
+
+th.warni:hover{
+    background-color: #00c3ff;
+    color: #ffffff;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff8ef;
+    font-family: 'Comfortaa', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: #554c46;
+    border-bottom: 1px solid #eadfd3;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+table,
+th,
+td {
+    border-color: #d96b99;
+}
+
+table th {
+    background-color: #f4a4c2;
+    color: white;
+}
+
+table td {
+    background-color: #fff0f6;
+    color: #7a3655;
+}
+
+td.hover:hover,
+th.warni:hover,
+th.warna:hover {
+    background-color: #f0629d;
+    color: white;
+}
+
+th.warna:hover{
+   background-color: #c73574;
+   color: #ffffff;
+}

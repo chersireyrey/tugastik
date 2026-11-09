@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.judul banner p{
+    color: blue;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.8;
+    background-image: 
+        linear-gradient(
+            rgba(255, 255, 255, 0.70),
+            rgba(255, 255, 255, 0.70)
+        ),
+        url("san\ fransisco.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    background: transparent;
+    text-align: center;
+    padding: 75px 20px 55px;
+    color: white;
+}
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+header h1:hover {
+    color:#f3c6c1;
+    transform: scale(1.03);
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.9);
+}
+.motto {
+    font-family: '', serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(133, 5, 5);
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgba(133, 5, 5);
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto 50px;
+}
+.wisata {
+    background-color: #f0f7ffed;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.20);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.wisata:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
+}
+.wisata h2 {
+    color: #ac5f57;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.wisata h2:hover {
+    color: #4d8fa9;
+    transform: scale(1.03);
+}
+.gambar-wisata {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, filter 0.5s ease;
+}
+.gambar-wisata:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.50);
+    filter: brightness(1.10);
+}
+.wisata p {
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(20, 55, 75, 0.85);
+    color: white;
+    margin-top: 50px;
+}
+footer p {
+    text-indent: 0;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 50px 15px 40px;
+    }
+    header h1 {
+        font-size: 35px;
+    }
+    header h1:hover {
+        transform: scale(1.02);
+    }
+    .motto {
+        font-size: 18px;
+    }
+    .subtitle {
+        font-size: 15px;
+    }
+    main {
+        width: 94%;
+    }
+    .wisata {
+        padding: 20px;
+    }
+    .wisata h2 {
+        font-size: 24px;
+    }
+    .gambar-wisata {
+        height: 280px;
+    }
+    .wisata p {
+        font-size: 15px;
+        text-indent: 30px;
+    }
+}
